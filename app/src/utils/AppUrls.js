@@ -1,0 +1,1 @@
+export const GET_DELHI_WEATHER= 'q=delhi,india&appid='
