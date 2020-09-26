@@ -1,9 +1,11 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import {View,Text} from 'react-native'
 import styles from './SplashScreenStyles'
 
-const SplashScreen =()=>{
-
+const SplashScreen =({navigation})=>{
+    useEffect(() => {
+            navigation.navigate('MainScreen')
+      });
 
     return(
         <View
