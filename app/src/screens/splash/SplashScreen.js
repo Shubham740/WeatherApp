@@ -4,7 +4,9 @@ import styles from './SplashScreenStyles'
 
 const SplashScreen =({navigation})=>{
     useEffect(() => {
+           setTimeout(()=>{
             navigation.navigate('MainScreen')
+           },3000)
       });
 
     return(
