@@ -18,4 +18,4 @@ const SplashScreen =()=>{
     
    
 }
-export default SplashScreen;
+export {SplashScreen};
