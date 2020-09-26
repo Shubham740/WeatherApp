@@ -1,5 +1,5 @@
 const CONFIGURATION={
-    BASE_URL='https://openweathermap.org/data/2.5/weather'
+    BASE_URL:'http://api.openweathermap.org/data/2.5/forecast'
 }
 
 export default CONFIGURATION;
